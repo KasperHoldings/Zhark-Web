@@ -1,10 +1,6 @@
-//console.log("hello");
 var React = require('react');
 var ReactDOM = require('react-dom');
-
-//console.log("hello");
-
-var List = require('./components/List.jsx');
+var Routes = require('./Routes.jsx');
 
 
-ReactDOM.render(<List />, document.getElementById('ingredients'));
+ReactDOM.render(Routes, document.getElementById('main'));
